@@ -15,7 +15,7 @@ reservationForm: FormGroup = new FormGroup({});
 
   constructor(
   private formBuilder: FormBuilder,
-  private router : Router,
+  private router: Router,
   private reservationService : ReservationService,
   private activatedRoute : ActivatedRoute
   ) { }
